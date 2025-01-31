@@ -1,4 +1,4 @@
-# CS594 NOTE: PLEASE CHECK RESULT SCREENSHOT. I have removed the file with the credentials in keeping with best practices. Please create you own file with credentials according the code in analyze.py in order to run.
+# CS594 NOTE: PLEASE CHECK RESULT SCREENSHOT. I have removed the file with the credentials in keeping with best practices. Please create your own file with credentials according the code in analyze.py in order to run.
 
 # Lab 1: Calling, Building, and Securing APIs
 In homework I1 you will use third-party machine learning APIs and in the group project you will develop your own APIs. In this lab, you will experiment with both, connecting to the Azure Vision API and providing your own API endpoint. 
