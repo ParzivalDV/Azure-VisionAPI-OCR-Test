@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "8e2e46af-c8ba-4e94-83fb-96a476c1e98c",
+		"name": "PDV Vision JSON Request",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://pdv-vision.cognitiveservices.azure.com/vision/v3.2/ocr?language=en&detectOrientation=true&model-version=latest",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"url\":\"https://github.com/ParzivalDV/Azure-VisionAPI-OCR-Test/blob/main/Images/testocr.png\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://pdv-vision.cognitiveservices.azure.com/vision/v3.2/ocr?language=en&detectOrientation=true&model-version=latest",
+					"protocol": "https",
+					"host": [
+						"pdv-vision",
+						"cognitiveservices",
+						"azure",
+						"com"
+					],
+					"path": [
+						"vision",
+						"v3.2",
+						"ocr"
+					],
+					"query": [
+						{
+							"key": "language",
+							"value": "en"
+						},
+						{
+							"key": "detectOrientation",
+							"value": "true"
+						},
+						{
+							"key": "model-version",
+							"value": "latest"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
